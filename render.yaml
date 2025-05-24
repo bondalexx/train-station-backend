@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: train-backend
+    env: node
+    buildCommand: npm run build
+    startCommand: npm run start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+    nodeVersion: 20
