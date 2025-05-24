@@ -2,9 +2,9 @@
   "name": "train-schedule-backend",
   "version": "1.0.0",
 "scripts": {
+  "build": "npx nest build",
   "start": "node dist/main",
-  "start:dev": "nest start --watch",
-  "build": "nest build"
+  "start:dev": "npx nest start --watch"
 },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
